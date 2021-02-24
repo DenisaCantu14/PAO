@@ -1,4 +1,4 @@
-package com.company;
+package ro.unibuc;
 
 public class Main {
 
