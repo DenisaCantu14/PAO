@@ -11,7 +11,7 @@ public class ex7{
         Scanner scanner = new Scanner(System.in);
         System.out.println("Read n: ");
         int n = scanner.nextInt();
-        
+
         if (n == 0) {
             System.out.println(0);
             return;
