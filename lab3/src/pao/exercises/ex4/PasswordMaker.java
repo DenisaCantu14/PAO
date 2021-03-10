@@ -11,7 +11,7 @@ public class PasswordMaker
 
     private PasswordMaker(String name)
     {
-       this.name  = name;
+        this.name  = name;
     }
 
     public static String getMagicString(int length)
@@ -35,7 +35,7 @@ public class PasswordMaker
         Random r = new Random();
         for (int i = 0; i < 10; i++)
             //10 caractere din magic_string
-           password += MAGIC_STRING.charAt(r.nextInt(20));
+            password += MAGIC_STRING.charAt(r.nextInt(20));
 
         //lungimea atributului name ca string
         password += Integer.toString(instance.name.length());
