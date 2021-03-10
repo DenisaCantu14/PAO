@@ -1,4 +1,4 @@
-package pao.exercices.ex1.classes;
+package pao.exercises.ex1;
 
 public class Area
 {
@@ -19,7 +19,7 @@ public class Area
         System.out.println(this.bag);
     }
     public static void main(String[] args) {
-        CandyBox []array = new CandyBox[3];
+        CandyBox[]array = new CandyBox[3];
         array[0] = new Milka("capsuni", "origin", 4, 5);
         array[1] = new Merci("cacao", "origin", 4);
         array[2] = new Lindt("milk", "origin", 4, 5, 9);

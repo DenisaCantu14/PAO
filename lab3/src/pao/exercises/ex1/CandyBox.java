@@ -1,4 +1,4 @@
-package pao.exercices.ex1.classes;
+package pao.exercises.ex1;
 
 public abstract class CandyBox {
     protected String flavor;

@@ -1,8 +1,8 @@
-package pao.exercices.ex1.classes;
+package pao.exercises.ex1;
 
 import java.util.Objects;
 
-public class Milka extends CandyBox{
+public class Milka extends CandyBox {
     private double radius;
     private double height;
 
