@@ -10,17 +10,17 @@ public class Main
         System.out.println("Read sir: ");
         String sir = scanner.nextLine();
 
-        StringBuilder reverse = new StringBuilder();
+        StringBuilder rev = new StringBuilder(sir);
+        rev.reverse();
 
-        sir = sir.replaceAll("\\s+", "").toLowerCase();
-        char[] array = sir.toCharArray();
-        for (int i = array.length - 1; i >= 0; i--) {
-            reverse.append(array[i]);
-        }
-        if ((reverse.toString()).equals(sir))
-            System.out.println("Este palindrom");
+        if ((rev.toString()).equals(sir))
+            {
+                System.out.println("Este palindrom");
+            }
         else
-            System.out.println("Nu este palindrom");
+            {
+                System.out.println("Nu este palindrom");
+            }
 
     }
 }
